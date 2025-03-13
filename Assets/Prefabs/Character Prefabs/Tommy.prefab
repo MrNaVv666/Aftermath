@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4854730255709187602}
   - component: {fileID: 5213179591746707637}
   m_Layer: 0
-  m_Name: Tommy_Leg
+  m_Name: Leg_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,7 +130,7 @@ Animator:
   m_GameObject: {fileID: 3065176591475839876}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 09f66e06f17e440bda26fe79ff01eaf6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 637869846873446642}
   - component: {fileID: 8247288658762415366}
   m_Layer: 0
-  m_Name: Tommny_ArmL1
+  m_Name: ArmL1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -579,7 +579,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 479247047
   m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 714bd7dd06d08c649983c18df941e795, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -602,7 +602,7 @@ GameObject:
   - component: {fileID: 3548190201746697374}
   - component: {fileID: 1553646562547266755}
   m_Layer: 0
-  m_Name: Tommy_Leg
+  m_Name: Leg_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -764,7 +764,7 @@ GameObject:
   - component: {fileID: 5114400529011666485}
   - component: {fileID: 5490750302770757862}
   m_Layer: 0
-  m_Name: Tommy_ArmR1
+  m_Name: ArmR1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -909,7 +909,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 479247047
   m_SortingLayer: 4
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 714bd7dd06d08c649983c18df941e795, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
