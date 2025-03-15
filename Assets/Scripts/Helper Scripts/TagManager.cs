@@ -23,7 +23,7 @@ public class TagManager {
     public static string RUN_PARAMETER = "Run";
     public static string ATTACK_PARAMETER = "Attack";
     public static string TYPE_WEAPON_PARAMETER = "TypeWeapon";
-    public static string SWITH_PARAMETER = "Switch";
+    public static string SWITCH_PARAMETER = "Switch";
     public static string GET_HURT_PARAMETER = "GetHurt";
     public static string DEAD_PARAMETER = "Dead";
     public static string RANDOM_PARAMETER = "Random";

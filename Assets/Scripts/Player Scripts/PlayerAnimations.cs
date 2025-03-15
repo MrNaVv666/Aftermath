@@ -20,7 +20,7 @@ public class PlayerAnimations : MonoBehaviour {
 
     public void SwitchWeaponAnimation(int typeWeapon) {
         anim.SetInteger(TagManager.TYPE_WEAPON_PARAMETER, typeWeapon);
-        anim.SetTrigger(TagManager.SWITH_PARAMETER);
+        anim.SetTrigger(TagManager.SWITCH_PARAMETER);
     }
 
     public void Hurt() {
