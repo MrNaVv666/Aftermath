@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 5fa8aef6ca28b4e03ba67caf65d3b943, type: 3}
     - target: {fileID: 3065176591475839876, guid: b7ff448c4681faa479bf85d071c62911, type: 3}
       propertyPath: m_Name
-      value: Halinka Variant
+      value: Halinka
       objectReference: {fileID: 0}
     - target: {fileID: 3247284165129874596, guid: b7ff448c4681faa479bf85d071c62911, type: 3}
       propertyPath: m_Sprite
