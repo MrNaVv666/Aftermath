@@ -161,6 +161,7 @@ GameObject:
   - component: {fileID: 5320952369389623948}
   - component: {fileID: 7080598321721478777}
   - component: {fileID: 4954234264788116094}
+  - component: {fileID: 3371463410884358869}
   m_Layer: 0
   m_Name: Tommy
   m_TagString: Untagged
@@ -302,6 +303,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 922182cc1488e459c80cdc0a5e058b0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3371463410884358869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933516302069299527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61654e4bcb6ef1a4ca50f351e15a5d51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapons_Unlocked: []
+  total_Weapons: []
+  current_Weapon: {fileID: 0}
+  meleeDamagePoint: {fileID: 0}
 --- !u!1 &1722012142289035876
 GameObject:
   m_ObjectHideFlags: 0
