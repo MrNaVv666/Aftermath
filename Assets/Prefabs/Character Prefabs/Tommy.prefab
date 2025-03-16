@@ -45,6 +45,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8268990787794128533}
   - component: {fileID: 4751326505278563687}
+  - component: {fileID: 4462050644330429716}
   m_Layer: 0
   m_Name: M3
   m_TagString: Untagged
@@ -119,6 +120,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4462050644330429716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763031479501836206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677ed264c7f2b74dafda659ad7995be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfing:
+    typeControl: 0
+    typeWeapon: 2
+    damage: 3
+    criticalDamage: 3
+    fireRate: 0.3
+    criticalRate: 0
+  nameWp: 3
+  gunIndex: 2
+  currentBullet: 0
+  bulletMax: 20
+  spawnPoint: {fileID: 2215593631947795318}
+  bulletPrefab: {fileID: 0}
+  fx_Shot: {fileID: 1286093502691565067}
+  fx_BulletFall: {fileID: 0}
 --- !u!1 &933516302069299527
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,6 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7655130218133152456}
   - component: {fileID: 9205827093366153141}
+  - component: {fileID: 6978978011736593326}
   m_Layer: 0
   m_Name: Sniper
   m_TagString: Untagged
@@ -476,6 +505,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6978978011736593326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366033215720728188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677ed264c7f2b74dafda659ad7995be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfing:
+    typeControl: 0
+    typeWeapon: 2
+    damage: 5
+    criticalDamage: 5
+    fireRate: 0.3
+    criticalRate: 0
+  nameWp: 5
+  gunIndex: 4
+  currentBullet: 0
+  bulletMax: 15
+  spawnPoint: {fileID: 2215593631947795318}
+  bulletPrefab: {fileID: 0}
+  fx_Shot: {fileID: 1286093502691565067}
+  fx_BulletFall: {fileID: 0}
 --- !u!1 &2421620535279827094
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,6 +711,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2871005800095138218}
   - component: {fileID: 1750009477026054377}
+  - component: {fileID: 6001080738937476191}
   m_Layer: 0
   m_Name: AK47
   m_TagString: Untagged
@@ -729,6 +786,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6001080738937476191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3255394887469697401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677ed264c7f2b74dafda659ad7995be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfing:
+    typeControl: 1
+    typeWeapon: 2
+    damage: 3
+    criticalDamage: 3
+    fireRate: 0.15
+    criticalRate: 0
+  nameWp: 4
+  gunIndex: 3
+  currentBullet: 0
+  bulletMax: 160
+  spawnPoint: {fileID: 2215593631947795318}
+  bulletPrefab: {fileID: 0}
+  fx_Shot: {fileID: 1286093502691565067}
+  fx_BulletFall: {fileID: 0}
 --- !u!1 &3256693201238062941
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +823,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8050747240292453501}
   - component: {fileID: 7444667477547734408}
+  - component: {fileID: 4548729244764855489}
   m_Layer: 0
   m_Name: MP5
   m_TagString: Untagged
@@ -813,6 +898,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4548729244764855489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3256693201238062941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677ed264c7f2b74dafda659ad7995be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfing:
+    typeControl: 1
+    typeWeapon: 1
+    damage: 1
+    criticalDamage: 1
+    fireRate: 0.3
+    criticalRate: 0
+  nameWp: 2
+  gunIndex: 1
+  currentBullet: 0
+  bulletMax: 210
+  spawnPoint: {fileID: 162256563920817270}
+  bulletPrefab: {fileID: 0}
+  fx_Shot: {fileID: 8319222172997348167}
+  fx_BulletFall: {fileID: 0}
 --- !u!1 &3535538581172961430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1192,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4162296175955635828}
   - component: {fileID: 3003386401747031590}
+  - component: {fileID: 6464483318489216676}
   m_Layer: 0
   m_Name: Rocket Launcher
   m_TagString: Untagged
@@ -1154,6 +1267,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6464483318489216676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3910486697785151807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677ed264c7f2b74dafda659ad7995be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfing:
+    typeControl: 0
+    typeWeapon: 1
+    damage: 8
+    criticalDamage: 8
+    fireRate: 1
+    criticalRate: 0
+  nameWp: 7
+  gunIndex: 6
+  currentBullet: 0
+  bulletMax: 10
+  spawnPoint: {fileID: 162256563920817270}
+  bulletPrefab: {fileID: 0}
+  fx_Shot: {fileID: 8319222172997348167}
+  fx_BulletFall: {fileID: 0}
 --- !u!1 &4409544868204338964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,6 +1530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7404960702509660842}
   - component: {fileID: 6758124097918308251}
+  - component: {fileID: 6978820698124752879}
   m_Layer: 0
   m_Name: Melee_baseketBall
   m_TagString: Untagged
@@ -1464,6 +1605,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6978820698124752879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810423283173445618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d58c67d56f72747ac95534729e94a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfing:
+    typeControl: 0
+    typeWeapon: 0
+    damage: 0
+    criticalDamage: 0
+    fireRate: 0.62
+    criticalRate: 0
+  nameWp: 0
+  gunIndex: -1
+  currentBullet: 1000
+  bulletMax: 1000
 --- !u!1 &7264141603452032440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1594,6 +1758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7692425438485915578}
   - component: {fileID: 8558090767107533963}
+  - component: {fileID: 7515816758936388900}
   m_Layer: 0
   m_Name: Little_pistol
   m_TagString: Untagged
@@ -1668,6 +1833,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7515816758936388900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7489907381232049322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677ed264c7f2b74dafda659ad7995be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfing:
+    typeControl: 0
+    typeWeapon: 1
+    damage: 1
+    criticalDamage: 1
+    fireRate: 0.3
+    criticalRate: 0
+  nameWp: 1
+  gunIndex: 0
+  currentBullet: 0
+  bulletMax: 120
+  spawnPoint: {fileID: 162256563920817270}
+  bulletPrefab: {fileID: 0}
+  fx_Shot: {fileID: 8319222172997348167}
+  fx_BulletFall: {fileID: 0}
 --- !u!1 &8547536133632995643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,6 +1870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8384337100620907393}
   - component: {fileID: 4515481826421293899}
+  - component: {fileID: 8842932185137215453}
   m_Layer: 0
   m_Name: Fire_Gun
   m_TagString: Untagged
@@ -1752,6 +1945,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8842932185137215453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547536133632995643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3677ed264c7f2b74dafda659ad7995be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultConfing:
+    typeControl: 0
+    typeWeapon: 2
+    damage: 6
+    criticalDamage: 6
+    fireRate: 0.5
+    criticalRate: 0
+  nameWp: 6
+  gunIndex: 5
+  currentBullet: 0
+  bulletMax: 50
+  spawnPoint: {fileID: 3066652060595480561}
+  bulletPrefab: {fileID: 0}
+  fx_Shot: {fileID: 7995790589438829396}
+  fx_BulletFall: {fileID: 0}
 --- !u!1 &8781800345176160948
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,6 +2187,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 203ee570ecf1d4c01b5860c95e92829c, type: 3}
+--- !u!198 &1286093502691565067 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198614469817912954, guid: 203ee570ecf1d4c01b5860c95e92829c, type: 3}
+  m_PrefabInstance: {fileID: 1375992574881402993}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1375617153483710277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4412853867319092, guid: 203ee570ecf1d4c01b5860c95e92829c, type: 3}
@@ -2180,6 +2405,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4512136884327848, guid: 248a8f4e29a7b41ffb897c20cf9541ad, type: 3}
   m_PrefabInstance: {fileID: 7797976946954734022}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &7995790589438829396 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198505394212285074, guid: 248a8f4e29a7b41ffb897c20cf9541ad, type: 3}
+  m_PrefabInstance: {fileID: 7797976946954734022}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8192402744762476219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2245,5 +2475,10 @@ PrefabInstance:
 --- !u!4 &8196398791064840209 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4001818738478762, guid: 67a4f93d3389d4b87b139b6bd87dcffd, type: 3}
+  m_PrefabInstance: {fileID: 8192402744762476219}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8319222172997348167 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198882519914892796, guid: 67a4f93d3389d4b87b139b6bd87dcffd, type: 3}
   m_PrefabInstance: {fileID: 8192402744762476219}
   m_PrefabAsset: {fileID: 0}
