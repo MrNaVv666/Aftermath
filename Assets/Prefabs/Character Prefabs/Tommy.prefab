@@ -162,6 +162,7 @@ GameObject:
   - component: {fileID: 7080598321721478777}
   - component: {fileID: 4954234264788116094}
   - component: {fileID: 3371463410884358869}
+  - component: {fileID: 7256522650845627009}
   m_Layer: 0
   m_Name: Tommy
   m_TagString: Untagged
@@ -316,9 +317,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapons_Unlocked: []
-  total_Weapons: []
+  total_Weapons:
+  - {fileID: 6978820698124752879}
+  - {fileID: 7515816758936388900}
+  - {fileID: 4548729244764855489}
+  - {fileID: 4462050644330429716}
+  - {fileID: 6001080738937476191}
+  - {fileID: 6978978011736593326}
+  - {fileID: 8842932185137215453}
+  - {fileID: 6464483318489216676}
   current_Weapon: {fileID: 0}
   meleeDamagePoint: {fileID: 0}
+--- !u!114 &7256522650845627009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933516302069299527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f901363fc9358f4db026fbdfbd2edbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canShoot: 0
 --- !u!1 &1722012142289035876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,6 +1143,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9214821907889102219}
   - component: {fileID: 4003530840964309311}
+  - component: {fileID: 7881821317265845418}
   m_Layer: 0
   m_Name: ArmR1
   m_TagString: Untagged
@@ -1199,6 +1222,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7881821317265845418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598326659064221896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e7a0389a4711942ac83ec789116f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  one_Hand_Sprite: {fileID: 21300000, guid: 3383c3b1e948d734fbb2371382630c7f, type: 3}
+  two_Hand_Sprite: {fileID: 21300000, guid: 5d7356e039d1b5d48b06ec34b4457624, type: 3}
 --- !u!1 &3910486697785151807
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,6 +1724,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7889417355894289792}
   - component: {fileID: 7373288695108277000}
+  - component: {fileID: 3498859281653601184}
   m_Layer: 0
   m_Name: ArmL1
   m_TagString: Untagged
@@ -1765,6 +1803,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3498859281653601184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7282505676751878840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59e7a0389a4711942ac83ec789116f7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  one_Hand_Sprite: {fileID: 21300000, guid: 5a9a7cac49e75d84493eb9559895e531, type: 3}
+  two_Hand_Sprite: {fileID: 21300000, guid: 3cce38d0e6290564485033f8e149e3af, type: 3}
 --- !u!1 &7489907381232049322
 GameObject:
   m_ObjectHideFlags: 0
