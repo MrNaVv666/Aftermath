@@ -144,9 +144,9 @@ MonoBehaviour:
   currentBullet: 0
   bulletMax: 20
   spawnPoint: {fileID: 2215593631947795318}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 3365879699123343216, guid: 92cd61ca54a838342897bff36ab3ec00, type: 3}
   fx_Shot: {fileID: 1286093502691565067}
-  fx_BulletFall: {fileID: 0}
+  fx_BulletFall: {fileID: 2681817527758899888, guid: 07c58a471348f664893066eedb7d8093, type: 3}
 --- !u!1 &933516302069299527
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,9 +568,9 @@ MonoBehaviour:
   currentBullet: 0
   bulletMax: 15
   spawnPoint: {fileID: 2215593631947795318}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 3365879699123343216, guid: 92cd61ca54a838342897bff36ab3ec00, type: 3}
   fx_Shot: {fileID: 1286093502691565067}
-  fx_BulletFall: {fileID: 0}
+  fx_BulletFall: {fileID: 2681817527758899888, guid: 07c58a471348f664893066eedb7d8093, type: 3}
 --- !u!1 &2421620535279827094
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,9 +849,9 @@ MonoBehaviour:
   currentBullet: 0
   bulletMax: 160
   spawnPoint: {fileID: 2215593631947795318}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 3365879699123343216, guid: 92cd61ca54a838342897bff36ab3ec00, type: 3}
   fx_Shot: {fileID: 1286093502691565067}
-  fx_BulletFall: {fileID: 0}
+  fx_BulletFall: {fileID: 2681817527758899888, guid: 07c58a471348f664893066eedb7d8093, type: 3}
 --- !u!1 &3256693201238062941
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,9 +961,9 @@ MonoBehaviour:
   currentBullet: 0
   bulletMax: 210
   spawnPoint: {fileID: 162256563920817270}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 3365879699123343216, guid: 92cd61ca54a838342897bff36ab3ec00, type: 3}
   fx_Shot: {fileID: 8319222172997348167}
-  fx_BulletFall: {fileID: 0}
+  fx_BulletFall: {fileID: 2681817527758899888, guid: 07c58a471348f664893066eedb7d8093, type: 3}
 --- !u!1 &3535538581172961430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,9 +1345,9 @@ MonoBehaviour:
   currentBullet: 0
   bulletMax: 10
   spawnPoint: {fileID: 162256563920817270}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 1674758620518530822, guid: 0391cd0c99bc54a46a1fbb7b7d3024d6, type: 3}
   fx_Shot: {fileID: 8319222172997348167}
-  fx_BulletFall: {fileID: 0}
+  fx_BulletFall: {fileID: 2681817527758899888, guid: 07c58a471348f664893066eedb7d8093, type: 3}
 --- !u!1 &4409544868204338964
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,9 +1926,9 @@ MonoBehaviour:
   currentBullet: 0
   bulletMax: 120
   spawnPoint: {fileID: 162256563920817270}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 3365879699123343216, guid: 92cd61ca54a838342897bff36ab3ec00, type: 3}
   fx_Shot: {fileID: 8319222172997348167}
-  fx_BulletFall: {fileID: 0}
+  fx_BulletFall: {fileID: 2681817527758899888, guid: 07c58a471348f664893066eedb7d8093, type: 3}
 --- !u!1 &8547536133632995643
 GameObject:
   m_ObjectHideFlags: 0
